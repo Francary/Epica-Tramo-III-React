@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width: 1200;
+}
+.btn {
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: blue;
+    color: white;
+} 
+
+.btn-blue:hover{
+    background-color: darkblue;
+}
+.btn-red {
+    background-color: red;
+    color: white;
+} 
+.btn-red:hover{
+    background-color: darkred;
+}
+
+.btn-green {
+    background-color: green;
+    color: white;
+} 
+.btn-green:hover{
+    background-color: darkgreen;
+}
+
+.container {
+
+    background-color: #333333;
+    color: #ffffff;
+    padding: 2px 6px;
+
+}
