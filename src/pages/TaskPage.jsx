@@ -23,7 +23,7 @@ const taskList =[
 
 const TaskPage = () => {
     return (
-        <div class="row">
+        <div className="row">
             {
                 taskList.map((task) =>{ 
                     return (

@@ -1,9 +1,17 @@
-import { useParams } from "react-router-dom"
+import { TaskItem } from "../components/TaskItem.jsx"
+import { useTask } from "../hooks/useTask.js"
 
 const TaskByIdPage = () => {
 
-    const {taskId} = useParams()
-    return (<div>El id es: {taskId}</div>)
+    const {task} =  useTask()
+    return (      
+        <>
+            <div className="row">
+                <TaskItem key={task.id} title={task.title} description={task.id} done={task.completed} ></TaskItem>    
+            </div>
+        </>
+    )
+    
 }
 
 

@@ -1,5 +1,6 @@
 import {Button} from "../components/Button.jsx"
 import { Container } from "../components/Container.jsx"
+import { Counter } from "../components/Counter.jsx"
 import { Test } from "../components/Test.jsx"
 
 const HomePage = () => {
@@ -16,6 +17,8 @@ const HomePage = () => {
                 </p>
             </Container>
             <Test/>     
+
+            <Counter/>
         </>
     )
 }
