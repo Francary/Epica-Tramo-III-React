@@ -3,14 +3,15 @@ import { HomePage } from "./HomePage.jsx"
 import { ProfilePage } from "./ProfilePage.jsx"
 import { TaskPage } from "./TaskPage.jsx"
 import { TaskByIdPage } from "./TaskByIdPage.jsx"
-import { Form } from "../components/Form.jsx"
-import { Counter } from "../components/Counter.jsx"
-import { Form2 } from "../components/Form2.jsx"
-import { Efectos } from "../components/Efectos.jsx"
-import { CicloDeVida } from "../components/CicloDeVida.jsx"
-import { Counter2 } from "../components/Counter2.jsx"
+import { Form } from "../components/Clase09/Form.jsx"
+import { Counter } from "../components/Clase09/Counter.jsx"
+import { Form2 } from "../components/Clase09/Form2.jsx"
+import { Efectos } from "../components/Clase09/Efectos.jsx"
+import { CicloDeVida } from "../components/Clase09/CicloDeVida.jsx"
+import { Counter2 } from "../components/Clase09/Counter2.jsx"
 import { TaskJson } from "./TaskJson.jsx"
-import { Form3 } from "../components/Form3.jsx"
+import { Form3 } from "../components/Clase09/Form3.jsx"
+import { Clase10Page } from "./Clase10Page.jsx"
 
 
 const Router = () => {
@@ -28,6 +29,7 @@ const Router = () => {
             <Route path="/ciclo-de-vida" element={<CicloDeVida/>}/>
             <Route path="/task2" element={<TaskJson/>}/>
             <Route path="/task2/:taskId" element={<TaskByIdPage/>}/>
+            <Route path="/clase10" element={<Clase10Page/>}/>
 
         </Routes>
 

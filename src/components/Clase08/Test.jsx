@@ -1,4 +1,4 @@
-import styles from "../styles/Test.module.css"
+import styles from "../../styles/Test.module.css"
 
 const Test = () => {
 

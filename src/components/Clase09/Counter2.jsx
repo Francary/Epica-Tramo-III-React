@@ -1,4 +1,4 @@
-import { useConuter } from "../hooks/useCountes.js"
+import { useConuter } from "../../hooks/Clase09/useCountes.js"
 
 const Counter2 = ( ) =>{
     let valorIncial = 0

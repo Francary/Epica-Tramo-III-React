@@ -43,6 +43,9 @@ const Navbar = () => {
         <li className="nav-item">
           <Link className="nav-link text-bg-secondary rounded-3 m-2" to="/task2">Task 2</Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link text-bg-secondary rounded-3 m-2" to="/clase10">Clase 10</Link>
+        </li>
 
       </ul>
     </div>

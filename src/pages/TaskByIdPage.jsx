@@ -1,5 +1,5 @@
-import { TaskItem } from "../components/TaskItem.jsx"
-import { useTask } from "../hooks/useTask.js"
+import { TaskItem } from "../components/Clase08/TaskItem.jsx"
+import { useTask } from "../hooks/Clase09/useTask.js"
 
 const TaskByIdPage = () => {
 

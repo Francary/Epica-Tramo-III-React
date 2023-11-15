@@ -1,7 +1,7 @@
-import {Button} from "../components/Button.jsx"
-import { Container } from "../components/Container.jsx"
-import { Counter } from "../components/Counter.jsx"
-import { Test } from "../components/Test.jsx"
+import {Button} from "../components/Clase08/Button.jsx"
+import { Container } from "../components/Clase08/Container.jsx"
+import { Counter } from "../components/Clase09/Counter.jsx"
+import { Test } from "../components/Clase08/Test.jsx"
 
 const HomePage = () => {
     return (  

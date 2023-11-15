@@ -1,4 +1,4 @@
-import { Navbar } from "./components/Navbar.jsx"
+import { Navbar } from "./components/Clase08/Navbar.jsx"
 import { Router } from "./pages/Router.jsx"
 import React from "react"
 
