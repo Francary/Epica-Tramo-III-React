@@ -12,6 +12,7 @@ import { Counter2 } from "../components/Clase09/Counter2.jsx"
 import { TaskJson } from "./TaskJson.jsx"
 import { Form3 } from "../components/Clase09/Form3.jsx"
 import { Clase10Page } from "./Clase10Page.jsx"
+import { Clase11Page } from "./Clase11Page.jsx"
 
 
 const Router = () => {
@@ -30,6 +31,7 @@ const Router = () => {
             <Route path="/task2" element={<TaskJson/>}/>
             <Route path="/task2/:taskId" element={<TaskByIdPage/>}/>
             <Route path="/clase10" element={<Clase10Page/>}/>
+            <Route path="/clase11" element={<Clase11Page/>}/>
 
         </Routes>
 
