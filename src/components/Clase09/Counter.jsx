@@ -24,6 +24,7 @@ const Counter = ( ) =>{
 
     return (
         <>
+            <h1> Contador 1</h1>
             <p>Contador: {contador}</p>
             <button className="btn btn-primary m-1" onClick={incrementar} >Incrementar</button>
             <button className="btn btn-danger m-1" onClick={decrementar}>Decrementar</button>

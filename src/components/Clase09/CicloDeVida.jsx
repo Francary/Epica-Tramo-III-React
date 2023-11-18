@@ -14,7 +14,8 @@ const CicloDeVida = () => {
     
         return (
         <>
-        <section>  
+        <section> 
+            <h1>Ciclos de Vida</h1> 
             Click: {counter}
             <button className="btn btn-primary" onClick={()=> setCounter(counter + 1)}> Incrementar </button>
         </section>

@@ -12,6 +12,7 @@ console.log("efecto")
 
     return (
     <>
+    <h1>Efectos</h1>
     <section>  
         Click: {counter}
         <button className="btn btn-primary m-2" onClick={()=> setCounter(counter + 1)}> Incrementar </button>

@@ -1,4 +1,4 @@
-import { TaskItem } from "../components/Clase08/TaskItem.jsx"
+import { TaskItem } from "./TaskItem.jsx"
 
 const taskList =[
     {
