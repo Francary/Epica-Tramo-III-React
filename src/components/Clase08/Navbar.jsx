@@ -49,6 +49,9 @@ const Navbar = () => {
         <li className="nav-item">
           <Link className="nav-link text-bg-secondary rounded-3 m-2" to="/clase11">Clase 11</Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link text-bg-secondary rounded-3 m-2" to="/clase12">Clase 12</Link>
+        </li>
 
       </ul>
     </div>
